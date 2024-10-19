@@ -96,3 +96,10 @@ python manage.py makemigrations <nome_aplicação>
 ```
 python manage.py migrate
 ```
+
+### Configs para deploy no Render
+
+### Comando para O Render executa este comando para iniciar seu aplicativo com cada implantação.
+```
+gunicorn proj_dp.wsgi
+```
